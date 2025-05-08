@@ -1,0 +1,409 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    justify-content: center;
+
+}
+a
+{
+    color: #000;
+}
+.Outer
+{
+   padding-left: 20px ;
+   padding-top: 30px;
+    background-color: #3F5F54;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.NavList
+{
+    color: #80968d;
+    margin-top: -50px;
+    padding: 20px;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    gap: 40px;
+    cursor: pointer;
+
+
+}
+#Name
+{
+    color: white;
+   padding-left: 30px;
+}
+.NavList :hover
+{
+    text-transform: 2px solid;
+    color: white;
+}
+.ShopandExplore
+{
+   width:500px;
+    color: white;
+    margin-top:80px;
+    margin-left:30px;
+    font-style: normal;   
+    font-size: 15px; 
+}
+.SofaSet
+{
+    margin-top: -326px;   
+   padding-left: 595px;
+
+}
+.button
+{
+    padding: 15px 30px;
+    background-color: hsla(43, 93%, 48%, 0.889);
+    border: none;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}
+
+.button2
+{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.button2:hover
+{
+    border: 2px solid white;
+
+}
+.button:hover
+{
+
+    background-color: rgb(138, 138, 15);
+
+    border: 2px solid white;
+
+}
+
+.para
+{
+
+    font-size: small;
+    line-height: 25px;
+    color: #6a7e86d9;
+}
+#Mids
+{
+    padding-left: -90PX;
+    font-size: 30px;
+}
+
+.A1
+{
+    font-family: 'Segoe UI', 'Helvetica Neue';
+    margin-left: 40px;
+}
+.Explore
+{
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: black;
+    
+}
+.Explore:hover
+{
+
+    border: white solid 2px;
+    background-color: green ;
+    color: black;
+}
+
+
+
+.Product
+{
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.Productimg
+{
+    height: 301px;
+    width: 301px;
+    margin: 0px 0px 30px;
+}
+.Productname
+{
+    text-align: center;
+}
+.Productprice
+{
+    text-align: center;
+}
+#page
+{
+    text-decoration-line:underline ;
+}
+.why-choose-us
+{
+    justify-content: space-between;
+}
+.why-choose-sectioninner
+{
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    width: 650px;
+   
+}
+.WhyAndImage
+{
+    display: flex;
+}
+
+#whyimage
+{
+
+margin-left: 30px;
+border-radius: 20px;
+justify-content: space-between;
+}
+
+.gridimg1
+{
+    height: 565px;
+    width: 464px;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+.gridimg2
+{
+    height: 212px;
+    width: 212px;
+  border-radius: 15px;
+  margin-left: -217px;
+}
+
+.gridimg3
+{
+    height: 432px;
+    width: 360px;
+   
+  border-radius: 15px;
+  margin-left: -127px;
+  margin-bottom: -100px;
+}
+.imagesingrd
+{
+display: flex;
+}
+
+.gridrow
+{
+
+    display: flex;
+
+}
+.Interiordesign
+{
+    margin-left: 60px;
+    font-style: normal;
+
+}
+.gridlist
+{
+    display: flex;
+    gap: 30px;
+    color: #6e6d6d;
+    margin-bottom: 30px;
+}
+.disclaimer
+{
+    padding: -80px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+   
+}
+.disclaimer1
+{
+    margin-right: 50px;
+    padding-left: -50px;
+   font-size: 12px;
+}
+.disclaimerimg
+{
+    margin-left: 90px;
+    height: 110px; 
+    background-color: rgb(166, 210, 228);
+    border-radius: 20px;
+
+}
+.Clickable
+{
+    cursor: pointer;
+    font-size: 15px;
+}
+.Testimonials
+{
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #35424f;
+    margin-bottom: 50px ;
+}
+
+.Testimonialspara
+{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Testimonialsimg
+{
+    height: 70px;
+    border-radius: 200px;
+    text-align: center;
+    justify-content: center;
+
+}
+.recentblog
+{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+    
+}
+
+.recentblogs
+{
+   
+    display: flex;
+    justify-content: center;
+    gap: 1000px;
+    margin-bottom: 40px;
+   
+}
+
+main
+{
+    background-color: rgb(211, 224, 236);
+    margin-top: -95px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.footer
+{
+    height: 580px;
+    width: 100%;
+   
+
+}
+.footerr1
+{
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+   padding: auto;
+    padding-left: 20px;
+
+}
+.footerimg
+{
+    margin-top: -165px;
+    height: 328px;
+    width: 380px;
+    padding-right: 20px;
+}
+
+.finput
+{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 14px 30px;
+}
+.bibi-envelope
+{
+    margin-bottom: -10px;
+}
+.send
+{
+    border: none;
+    border-radius: 8px;
+    padding: 14px 30px;
+    background-color:  #3F5F54;
+}
+.send:hover
+{
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 30px;
+
+    background-color:  goldenrod;
+}
+.contractlogo
+{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footerr2
+{
+    margin-top: 40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    display: flex;
+    gap: 120px;
+
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin:0;
+  }
+  li
+  {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .end
+  {
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    color: rgb(88, 94, 100);
+    margin-bottom: 20px;
+    margin-top: -50px;
+
+  }
+  
+  
