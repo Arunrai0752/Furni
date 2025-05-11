@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    justify-content: space-around;
+
+
+}
+
+#Name {
+   color: white;
+   text-decoration: none;
+   font-size: 30px;
+ 
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.Outer {
+    padding-left:15px;
+    padding-top: 30px;
+    margin-bottom:-95px ;
+    background-color: #3F5F54;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.NavList { 
+    color: #80968d;
+    margin-top: -30px;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    margin-left:370px;
+    gap: 45px;
+    cursor: pointer;
+    font-weight: 100;
+    justify-content: center;
+
+}
+
+
+
+.NavList :hover {
+    text-decoration: underline;
+    transform: 2.0s;
+    text-decoration-color: yellow;
+    text-transform: 2px solid;
+    color: white;
+}
+
+.Shop{
+    width: 500px;
+    color: white;
+    margin-top: 80px;
+    font-style: normal;
+    font-size: 20px;
+} 
+
+
+.product
+{
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.Productimg
+{
+    height: 250px;
+    width: 250px;
+    
+}
+
+main
+{
+    padding-top: 50px;
+    background-color:rgb(212, 245, 253);
+    padding-bottom: 300px;
+}
+.footer {
+    height: 580px;
+    width: 100%;
+    margin-top: -200px;
+
+
+}
+
+.footerr1 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: auto;
+    padding-left: 20px;
+
+}
+
+.footerimg {
+    margin-top: -165px;
+    height: 328px;
+    width: 380px;
+    padding-right: 20px;
+}
+
+.finput {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 14px 30px;
+}
+
+.bibi-envelope {
+    margin-bottom: -10px;
+}
+
+.send {
+    border: none;
+    border-radius: 8px;
+    padding: 14px 30px;
+    background-color: #3F5F54;
+}
+
+.send:hover {
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 30px;
+
+    background-color: goldenrod;
+}
+
+.contractlogo {
+    display: flex;
+    text-align: center;
+    width: 100px;
+    justify-content: space-between;
+    gap: 20px;
+    color: #3F5F54;
+    cursor: pointer;
+
+}
+
+
+
+.footerr2 {
+    margin-top: 40px;
+    margin-right: -40px;
+    display: flex;
+    gap: 100px;
+
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    color: rgb(88, 94, 100);
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+body {
+  overflow-x: hidden;
+}
